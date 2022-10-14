@@ -171,6 +171,7 @@ def setup():
         <h3 class="text-center">
             <p>Welcome to HackLabs.id!</p>
             <p>Follow us on social media:</p>
+            <br>
             <a href="https://www.instagram.com/hacklabs.id/"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
         </h3>
         <br>  

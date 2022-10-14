@@ -167,7 +167,7 @@ def setup():
             # Splice in our banner
             index = f"""<div class="row">
     <div class="col-md-6 offset-md-3" style="display:flex; flex-direction:column;>
-        <h1 class="text-center" style="text-align:center;">
+        <h1 class="text-center" style="display:none;">
             HackLabs.id CTF
         </h1>
         <img class="w-100 mx-auto d-block" style="max-width: 500px;padding: 50px;padding-top: 14vh;" src="{default_ctf_banner_location}" />

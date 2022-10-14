@@ -10,6 +10,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="{{ url_for('views.themes', path='css/main.css') }}">
 	<link rel="stylesheet" href="{{ url_for('views.themes', path='css/core.css') }}">
+	
+	<style>
+		@media only screen and (max-width: 770px) {
+			.custom-banner{
+				flex-direction: column;
+			}
+		}
+	</style>
+
 	{% block stylesheets %}
 	{% endblock %}
 
@@ -38,7 +47,7 @@
 
 	<footer class="footer">
 		<div class="container text-center">
-			<div><a href="https://github.com/hmrserver/CTFd-theme-pixo" class="text-secondary"><small class="text-muted">Theme designed by PRI4CE</small></a></div>
+			<div><small class="text-muted">Made with love :3</small></div>
 			<a href="https://ctfd.io" class="text-secondary">
 				<small class="text-muted">Powered by CTFd</small>
 			</a>

@@ -166,7 +166,7 @@ def setup():
 
             # Splice in our banner
             index = f"""<div class="row">
-    <div class="col-md-6 offset-md-3" style="display:flex; flex-direction:column;>
+    <div class="col-md-6 offset-md-3" style="display:flex; flex-direction:column;">
         <h1 class="text-center" style="display:none;">
             HackLabs.id CTF
         </h1>

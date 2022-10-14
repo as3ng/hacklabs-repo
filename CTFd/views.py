@@ -180,7 +180,7 @@ def setup():
         </br>  
         <h4 class="text-center">
             <p>Donate to make us survive!</p>
-            <a href="https://trakteer.id/hacklabsid" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>&nbsp;
+            <a href="https://trakteer.id/hacklabsid/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>&nbsp;
         </h4>
     </div>
 </div>"""

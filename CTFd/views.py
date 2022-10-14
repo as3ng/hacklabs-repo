@@ -167,19 +167,16 @@ def setup():
             # Splice in our banner
             index = f"""<div class="row">
     <div class="col-md-6 offset-md-3" style="display:flex; flex-direction:column;>
-        <h1 class="text-center">
-            HackLabs.id CTF
-        </h1>
         <img class="w-100 mx-auto d-block" style="max-width: 500px;padding: 50px;padding-top: 14vh;" src="{default_ctf_banner_location}" />
         <h3 class="text-center">
             <p>Welcome to HackLabs.id!</p>
             <p>Follow us on social media:</p>
-            <a href="https://www.instagram.com/hacklabs.id/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>&nbsp;
+            <a href="https://www.instagram.com/hacklabs.id/"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
         </h3>
         <br>  
         <h4 class="text-center">
             <p>Donate to make us survive!</p>
-            <a href="https://trakteer.id/hacklabsid" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>&nbsp;
+            <a href="https://trakteer.id/hacklabsid/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
         </h4>
     </div>
 </div>"""
